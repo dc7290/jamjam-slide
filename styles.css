@@ -1,0 +1,11 @@
+body {
+  @apply font-sans font-normal tracking-wide;
+}
+
+h1 {
+  @apply font-serif;
+}
+
+code {
+  @apply font-mono;
+}
