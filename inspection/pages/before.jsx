@@ -1,5 +1,6 @@
 import cheerio from 'cheerio'
 import hljs from 'highlight.js'
+import Head from 'next/head'
 import { useEffect, useState } from 'react'
 
 import getContent from '../utils/getContent'
@@ -29,7 +30,18 @@ const BeforePage = ({ body }) => {
     setProcessedBody($.html())
   }, [body])
 
-  return <Content body={processedBody} />
+  return (
+    <>
+      <Head>
+        <title>最適化前</title>
+        <meta
+          name="description"
+          content="ジャムジャム！！Jamstack の登壇スライド 最適化前後の比較資料"
+        />
+      </Head>
+      <Content body={processedBody} />
+    </>
+  )
 }
 
 export default BeforePage
