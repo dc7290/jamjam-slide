@@ -6,9 +6,6 @@
     "dev": "slidev --open",
     "export": "slidev export"
   },
-  "slidev": {
-    "colorSchema": "dark"
-  },
   "dependencies": {
     "@slidev/cli": "0.25.8",
     "@slidev/theme-apple-basic": "0.20.0"

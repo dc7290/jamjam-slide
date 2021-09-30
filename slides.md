@@ -10,7 +10,8 @@ layout: intro
 
 <p>事前生成のメリットを生かして、<br>microCMSのリッチエディタを最適化して使う</p>
 
-<img class="absolute bottom-10 left-10" src="/logo-jamstack.png" width="240" height="69" />
+<img class="visible-light absolute bottom-10 left-10" src="/logo-jamstack.png" width="240" height="69" />
+<img class="visible-dark absolute bottom-10 left-10" src="/logo-jamstack-dark.png" width="240" height="69" />
 
 <!--
 今回私が発表させていただくのは、「事前生成のメリットを生かして、microCMSのリッチエディタを最適化して使う」になります。

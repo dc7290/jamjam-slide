@@ -9,3 +9,19 @@ code {
 .slidev-layout {
   gap: 4rem;
 }
+
+html.light .visible-light {
+  display: block;
+}
+
+html.dark .visible-light {
+  display: none;
+}
+
+html.light .visible-dark {
+  display: none;
+}
+
+html.dark .visible-dark {
+  display: block;
+}
