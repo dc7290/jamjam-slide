@@ -162,7 +162,7 @@ import { processer } from "microcms-richedit-processer"
 
 〜〜〜
 
-const body = await processer(content, { code: { enabled: true } })
+processer(content, { code: { enabled: true } })
 ```
 
 <div class="mt-10"></div>
